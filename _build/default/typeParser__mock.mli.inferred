@@ -1,0 +1,5 @@
+type token = VAR of string | RPAREN | RARROW | LPAREN | EOF | DISJ | CONJ
+val menhir_begin_marker : int
+val xv_set : Ast.set
+val xv_prog : Ast.set
+val menhir_end_marker : int

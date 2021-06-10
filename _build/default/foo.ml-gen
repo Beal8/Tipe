@@ -1,0 +1,22 @@
+(** @canonical Foo.Ast *)
+module Ast = Foo__Ast
+
+
+(** @canonical Foo.Lexer *)
+module Lexer = Foo__Lexer
+
+
+(** @canonical Foo.Main *)
+module Main = Foo__Main
+
+
+(** @canonical Foo.Parser *)
+module Parser = Foo__Parser
+
+
+(** @canonical Foo.TypeLexer *)
+module TypeLexer = Foo__TypeLexer
+
+
+(** @canonical Foo.TypeParser *)
+module TypeParser = Foo__TypeParser

@@ -1,0 +1,27 @@
+type token =
+    WEDGE
+  | VAR of string
+  | RPAREN
+  | RMWEDGE1
+  | RMWEDGE0
+  | RMBOTTOM
+  | RARROW
+  | NEG
+  | LPAREN
+  | LAM
+  | HOLE
+  | EOF
+  | DOUBLEDOT
+  | DOT
+  | DJINTRO1
+  | DJINTRO0
+  | DJELIM
+  | DISJ
+  | CONJ
+  | BOTTOM
+val menhir_begin_marker : int
+val xv_set_only : Ast.set
+val xv_set : Ast.set
+val xv_prog : Ast.expr
+val xv_expr : Ast.expr
+val menhir_end_marker : int

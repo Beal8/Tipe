@@ -1,0 +1,10 @@
+(library
+ (name        foo)
+ (modules main parser ast lexer typeParser typeLexer)
+ (libraries re lwt))
+  
+
+(ocamllex lexer typeLexer)
+
+(menhir
+ (modules parser typeParser))
